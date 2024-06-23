@@ -30,10 +30,13 @@ const MainPage = () => {
   };
 
   return (
-    <div className="main bg-orange-300  ">
+    <div className="main bg-orange-300 w-full h-screen ">
+      
       <div className="searchbar mb-20 flex items-center justify-center">
+      
         <input
           type="text"
+          placeholder='Search Recipe Here'
           className="mt-20 p-3 mr-1 border-none rounded-md bg-slate-600 text-white"
           onChange={handleInput}
         />
@@ -44,6 +47,7 @@ const MainPage = () => {
           Search
         </button>
       </div >
+      <h1 className="font-bold ml-20 text-3xl ">FoodRecipeApp</h1>
       <div>
         
           <Meals detail={data} />
