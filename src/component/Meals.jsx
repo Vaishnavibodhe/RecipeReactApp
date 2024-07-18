@@ -4,8 +4,8 @@ import {NavLink} from 'react-router-dom';
 const Meals = ({detail}) => {
     console.log(detail);
   return (
-   
-    <div className=" container p-5 ml-20">
+   <div>
+    <div className=" bg-orange-300 container md:p-5 md:ml-20 p-4">
        <div className=" meals-grid grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
        {!detail ? "" : detail.map((items)=>{
         return(
@@ -25,7 +25,7 @@ const Meals = ({detail}) => {
        }
        </div>
     </div>
-    
+    </div>
   )
 }
 

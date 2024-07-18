@@ -10,12 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    
     "glob": "^9.3.5",
     "lru-cache": "^10.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
+    "react-typed": "^2.0.12",
     "rimraf": "^4.4.1"
   },
   "devDependencies": {
